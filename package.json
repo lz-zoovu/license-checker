@@ -1,8 +1,8 @@
 {
-  "name": "license-checker",
+  "name": "license-checker-lz",
   "description": "Check license info for a package",
-  "author": "Dav Glass <davglass@gmail.com>",
-  "version": "25.0.1",
+  "author": "",
+  "version": "1.0.0",
   "contributors": [
     "Adam Weber <adamweber01@gmail.com>",
     "Andrew Couch <andy@couchand.com>",
@@ -101,14 +101,7 @@
     "posttest": "nyc check-coverage && nyc report -r lcov -r text -r text-summary"
   },
   "preferGlobal": true,
-  "bugs": {
-    "url": "http://github.com/davglass/license-checker/issues"
-  },
   "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/davglass/license-checker.git"
-  },
   "nyc": {
     "check-coverage": true,
     "exclude": [
