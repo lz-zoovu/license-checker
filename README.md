@@ -3,6 +3,8 @@ NPM License Checker
 
 [![Build Status](https://www.travis-ci.org/davglass/license-checker.svg?branch=master)](https://www.travis-ci.org/davglass/license-checker)
 
+**This is a fork of https://github.com/davglass/license-checker (which seems to be dead https://github.com/davglass/license-checker/issues/245). The only change is that the onlyAllow option does not cause the script to exit after first failing package - it prints all failing packages and exits afterwards.**
+
 *As of v17.0.0 the `failOn` and `onlyAllow` arguments take semicolons as delimeters instead of commas. Some license names contain
 commas and it messed with the parsing*
 
