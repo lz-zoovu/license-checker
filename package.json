@@ -70,6 +70,7 @@
   },
   "devDependencies": {
     "camden.jshint": "github:cfjedimaster/brackets-jshint",
+    "dbug": "^0.4.2",
     "detectionizr": "*",
     "eslint": "^4.19.1",
     "format-package-json": "^0.2.0",
